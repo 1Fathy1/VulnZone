@@ -1,0 +1,113 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  width: 360px;
+  margin-top: 30px;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 32px;
+  color: #00c6ff;
+  margin-bottom: 20px;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+
+.input-group i {
+  color: #888;
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #00c6ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #007ea7;
+}
+
+.success, .error {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.success {
+  color: #7CFC00;
+}
+
+.error {
+  color: #FF4C4C;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #00c6ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #00c6ff;
+}
